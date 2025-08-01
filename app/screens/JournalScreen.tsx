@@ -40,7 +40,7 @@ const JournalScreen = () => {
         const prompt = `Classify the sentiment of the following journal entry as one of: "positive", "neutral", or "negative". Respond with only the sentiment tag.\n\n"${text}"`;
 
         const response = await fetch(
-            'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyCWCGEmNFeXLzWBUpQCH_rrn5WQSXiFVas',
+            'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=',
             {
             method: 'POST',
             headers: {
